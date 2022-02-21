@@ -15,4 +15,4 @@ select
     from `analytics-engineers-club.coffee_shop.customers` as c
 join customer_order as co
 on co.customer_id = c.id
-limit 5;
+limit 10;
